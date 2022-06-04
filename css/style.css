@@ -1,0 +1,25 @@
+body{
+  text-align: center;
+  font-family: sans-serif;
+  background-color: #FFD177;
+}
+
+button{
+  background-color: #6AD0FF;
+  border-color: orange;
+  color: white;
+  border-radius: 15px;
+}
+
+input{
+  background-color: #AFBCFA;
+  border-color: #AAAAFF;
+  border-radius: 7px;
+  border-style: solid;
+}
+
+.t{
+  background-color: #FFC65F;
+  border: 5px solid black;
+  border-radius: 7px;
+}

@@ -1,0 +1,49 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Orange Juice Clicker</title>
+    <link rel="stylesheet" href="css/style.css"></link>
+  </head>
+  <body>
+    <strong>Version 1.1</strong>
+    <div class="orange">
+      <p>You will need oranges to create orange juice (5 oranges.)</p>
+      <a onclick="ao()"><img src="orange.png" width="200" height="200"></a>
+      <br>
+      <input type="text" id="oranges" disabled>
+      <button onclick="sello()">Sell Oranges</button>
+      <br>
+      <p>This orange gives you extra..</p>
+      <a onclick="aso()"><img src="qmark.png" width="200" height="200" id="so"></a>
+      <br>
+      <input type="text" id="secretorange" disabled>
+      <button onclick="sellso()">Sell</button>
+    </div>
+    <div class="orangejuice">
+      <p>You need 5 oranges to make orange juice. You get paid 7 cash for orange juice.</p>
+      <a onclick="aoj()"><img src="orangejuice.png" width="200" height="200"></a>
+      <br>
+      <input type="text" id="orangejuice" disabled>
+      <button onclick="selloj()">Sell Orange Juice</button>
+    </div>
+    <div class="stats">
+      <h3>Stats: </h3>
+      <input type="text" id="cash" disabled>
+      <input type="text" id="popularity" disabled>
+    </div>
+    <div class="t">
+      <h3>Testing Facility</h3>
+      <img src="orange.png" width="100" height="100" class="orgimg" id="io">
+      <br>
+      <input type="text" id="r" disabled>
+      <input type="text" id="s" disabled>
+      <input type="text" id="b" disabled>
+      <button id="t" onclick="change()">Upgrade Orange (permanent option)</button>
+    </div>
+    <div>
+      <h3>Shop</h3>
+      <p>Coming Soon!</p>
+    </div>
+    <script src="js/main.js"></script>
+  </body>
+</html>
